@@ -188,10 +188,10 @@
                     <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
                     <form class="formcontato__form" name="form">
                         <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
-                        <button type="button" class="btn btn-primary btn-lg">Enviar mensaje</button>
+                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail" id="contacto-email">
+                        <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto" id="contacto-asunto">
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="contacto-mensaje" name="mensaje" placeholder="Mensaje"></textarea>
+                        <button type="button" class="btn btn-primary btn-lg" id="contacto-btn">Enviar mensaje</button>
                     </form>
                 </div>
             </div>
@@ -206,6 +206,7 @@
         </section>
     </div>
  <!-- Script del documento JavaScript -->
+<script src="nodemailer.js"></script>
 <script src="validacion.js"></script>
 </body>
 </html>
