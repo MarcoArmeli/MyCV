@@ -1,9 +1,10 @@
 
 
+
 body {
     box-sizing: border-box;
     background-color:#F5F5F5;
-    font-family: 'Raleway';
+    font-family: 'Neue Machina';
     margin: 0;
     padding: 0;
     line-height: 1;
@@ -102,14 +103,12 @@ section.title{
     gap: 24px;
 }
 .title__bio{
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 52px;
     line-height: 61px;
 }
 .title__subsection{
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
@@ -126,7 +125,6 @@ section.title{
     gap: 24px;
 }
 .title__network__item{
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
@@ -154,7 +152,6 @@ section.about{
     gap: 16px;
 }
 .about__title{
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -162,7 +159,6 @@ section.about{
 }
 
 .about__paragraph{
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -271,7 +267,6 @@ section.academic{
 }
 
 .academic__courses__item__title{
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -279,13 +274,28 @@ section.academic{
 }
 
 .academic__courses__item__subtitle{
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
 }
 
 /* experiencia*/
+
+.BTN{
+    padding: 20px 20px;
+    display: inline-block;
+    color: #008000;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    overflow: hidden;
+}
+.BTN:hover {
+        color: #111;
+        background: #39ff14;
+        box-shadow: 0 0 50px #39ff14;
+    }
 
 section.experience{
     display: flex;
@@ -337,7 +347,6 @@ section.formcontato{
 }
 
 .formcontato__title{
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -345,7 +354,6 @@ section.formcontato{
 }
 
 .formcontato__subtext{
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
