@@ -4,7 +4,7 @@
 body {
     box-sizing: border-box;
     background-color:#F5F5F5;
-    font-family: 'Neue Machina';
+    font-family: 'raleway';
     margin: 0;
     padding: 0;
     line-height: 1;
@@ -103,12 +103,14 @@ section.title{
     gap: 24px;
 }
 .title__bio{
+    font-family: 'raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 52px;
     line-height: 61px;
 }
 .title__subsection{
+    font-family: 'raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
@@ -125,6 +127,7 @@ section.title{
     gap: 24px;
 }
 .title__network__item{
+    font-family: 'raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
@@ -152,6 +155,7 @@ section.about{
     gap: 16px;
 }
 .about__title{
+    font-family: 'raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -159,6 +163,7 @@ section.about{
 }
 
 .about__paragraph{
+    font-family: 'raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -267,6 +272,7 @@ section.academic{
 }
 
 .academic__courses__item__title{
+    font-family: 'raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -274,6 +280,7 @@ section.academic{
 }
 
 .academic__courses__item__subtitle{
+    font-family: 'raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -288,6 +295,7 @@ section.academic{
     letter-spacing: 2px;
     text-transform: uppercase;
     text-decoration: none;
+    font-family: 'raleway';
     font-size: 15px;
     overflow: hidden;
 }
@@ -347,6 +355,7 @@ section.formcontato{
 }
 
 .formcontato__title{
+    font-family: 'raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -354,6 +363,7 @@ section.formcontato{
 }
 
 .formcontato__subtext{
+    font-family: "raleway";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
